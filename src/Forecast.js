@@ -10,7 +10,10 @@ export default function Forecast() {
               <li>MON</li>
               <li>29</li>
               <li>
-                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"></img>
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+                  alt="Girl in a jacket"
+                ></img>
               </li>
               <li>cloudy</li>
             </ul>
@@ -20,7 +23,10 @@ export default function Forecast() {
               <li>MON</li>
               <li>29</li>
               <li>
-                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"></img>
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+                  alt="Girl in a jacket"
+                ></img>
               </li>
               <li>cloudy</li>
             </ul>
@@ -30,7 +36,10 @@ export default function Forecast() {
               <li>MON</li>
               <li>29</li>
               <li>
-                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"></img>
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+                  alt="Girl in a jacket"
+                ></img>
               </li>
               <li>cloudy</li>
             </ul>
@@ -40,7 +49,10 @@ export default function Forecast() {
               <li>MON</li>
               <li>29</li>
               <li>
-                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"></img>
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+                  alt="Girl in a jacket"
+                ></img>
               </li>
               <li>cloudy</li>
             </ul>
@@ -50,7 +62,10 @@ export default function Forecast() {
               <li>MON</li>
               <li>29</li>
               <li>
-                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"></img>
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+                  alt="Girl in a jacket"
+                ></img>
               </li>
               <li>cloudy</li>
             </ul>
