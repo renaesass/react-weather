@@ -1,6 +1,7 @@
 div.row {
   display: flex;
   justify-content: center;
+  background-color: brown;
 }
 
 ul.today {
