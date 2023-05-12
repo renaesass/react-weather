@@ -12,8 +12,13 @@ ul.today {
 }
 
 ul.forecast {
-  padding: 36px;
+  padding: 16px;
   list-style: none;
+  background-color: blueviolet;
+  border-style: solid;
+  border: 5px, black;
+  margin-left: 10px;
+  margin-right: 10px;
 
   text-align: center;
 }

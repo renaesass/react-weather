@@ -59,7 +59,7 @@ export default function Forecast() {
           </div>
           <div className="col-2">
             <ul className="forecast">
-              <li>MON</li>
+              <li className="test">MON</li>
               <li>29</li>
               <li>
                 <img
