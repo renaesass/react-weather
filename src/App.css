@@ -17,7 +17,7 @@ ul.forecast {
   list-style: none;
   background-color: blueviolet;
   border-style: solid;
-  border: 5px, black;
+  border: 5px, solid, black;
   margin-left: 10px;
   margin-right: 10px;
 
