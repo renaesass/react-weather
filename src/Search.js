@@ -32,7 +32,7 @@ export default function Search() {
   let form = (
     <form onSubmit={handleSubmit}>
       <input type="search" placeholder="Type a City..." onChange={updateCity} />
-      <button type="submit">searchpppp</button>
+      <button type="submit">search</button>
     </form>
   );
   if (loaded) {
