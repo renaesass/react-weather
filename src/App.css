@@ -2,18 +2,19 @@ div.row {
   display: flex;
   justify-content: center;
   background-color: brown;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 ul.today {
   list-style: none;
   font-size: 14px;
-
   margin-left: 12px;
   margin-right: 12px;
 }
 
 ul.forecast {
-  padding: 16px;
+  padding: 5px;
   list-style: none;
   background-color: blueviolet;
   border-style: solid;
@@ -38,4 +39,8 @@ h1 {
 }
 body {
   background-color: blue;
+}
+
+a.gitlink {
+  margin-left: 300px;
 }
