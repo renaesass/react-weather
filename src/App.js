@@ -1,39 +1,40 @@
+import React from "react";
 import Weather from "./Weather";
-import Forecast from "./Forecast";
-import "./Forecast.css";
-import "./Weather.css";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <body>
-        <Weather />
-        <Forecast />
+      <div className="container">
+        <Weather defaultCity="New York" />
+
         <footer>
-          <p>
-            Created By{" "}
-            <a
-              className="gitlink"
-              href="https://github.com/renaesass/react-weather"
-              target="blank"
-            >
-              Renae Sass{""}
-            </a>
-            <span>
-              View on{" "}
-              <a
-                href="https://bright-bublanina-9aaecd.netlify.app"
-                target="blank"
-              >
-                GitHub
-              </a>
-            </span>
-          </p>
+          This project was coded by{" "}
+          <a
+            href="https://www.delac.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Renae Sass
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/renaesass/react-weather"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://peppy-pothos-020c0e.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            on Netlify
+          </a>
         </footer>
-      </body>
-      <div></div>
+      </div>
     </div>
   );
 }
-
-export default App;
