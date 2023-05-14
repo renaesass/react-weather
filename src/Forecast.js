@@ -1,4 +1,5 @@
 import React from "react";
+import "./Forecast.css";
 
 export default function Forecast() {
   return (
@@ -71,13 +72,6 @@ export default function Forecast() {
             </ul>
           </div>
         </div>
-        <a
-          className="gitlink"
-          href="https://github.com/renaesass/react-weather"
-        >
-          Open Source Code
-        </a>
-        <span> by Renae Sass</span>
       </div>
     </div>
   );

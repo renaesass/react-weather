@@ -1,7 +1,7 @@
 div.row {
   display: flex;
   justify-content: center;
-  background-color: brown;
+
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -16,7 +16,8 @@ ul.today {
 ul.forecast {
   padding: 5px;
   list-style: none;
-  background-color: blueviolet;
+  background-color: rgb(196, 93, 119);
+  opacity: 65%;
   border-style: solid;
   border: 5px, solid, black;
   margin-left: 10px;
@@ -38,9 +39,11 @@ h1 {
   text-align: center;
 }
 body {
-  background-color: blue;
+  background-image: url(./Images/future.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-a.gitlink {
+p {
   margin-left: 300px;
 }
