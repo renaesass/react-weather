@@ -1,8 +1,7 @@
 ul.forecast {
   padding: 5px;
   list-style: none;
-  background-color: rgb(196, 93, 119);
-  opacity: 65%;
+
   border-style: solid;
   border: 5px, solid, black;
   margin-left: 10px;
@@ -10,13 +9,10 @@ ul.forecast {
 
   text-align: center;
 }
-.col-2 {
-  font-size: 14px;
-}
+
 div.row {
   display: flex;
   justify-content: center;
-
   margin-left: 300px;
   margin-right: 300px;
 }

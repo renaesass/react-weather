@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
+import Date from "./Date";
 
 export default function Search() {
   const [city, setCity] = useState("");
@@ -14,6 +15,8 @@ export default function Search() {
       description: response.data.weather[0].description,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
+      date: new Date(response.data.dt * 1000),
+
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
@@ -41,22 +44,37 @@ export default function Search() {
       <div>
         {form}{" "}
         <div className="container">
-          <h1>{city}</h1>
           <div className="row">
-            <div className="col-4">
+            <div className="col-6">
+              <h1 class="text-capitalize">{city}</h1>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-5">
               <ul className="today">
-                <li>💨 Wind speed {Weather.wind}KM/hr</li>
-                <li>💧 Humidity {Weather.humidity}%</li>
-                <li> ☂️ Conditions {Weather.description}</li>
+                <li>
+                  <Date date={Weather.date} />
+                </li>
+                <li>Wind Speed {Weather.wind}KM/hr</li>
+                <li>Humidity {Weather.humidity}%</li>
+                <li>Conditions {Weather.description}</li>
               </ul>
             </div>
-            <div className="col-4">
+            <div className="col-5">
               <h2>
-                {Math.round(Weather.temperature)}° C | <a href="F">F</a>
+                {Math.round(Weather.temperature)}°{" "}
+                <span className="celfar">
+                  C | <a href="F">F</a>
+                </span>
               </h2>
             </div>
-            <div className="col-4">
-              <img src={Weather.icon} alt={Weather.description} />
+            <div className="col-2">
+              <img
+                className="nowImage"
+                src={Weather.icon}
+                alt={Weather.description}
+              />
             </div>
           </div>
         </div>

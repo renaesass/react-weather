@@ -1,27 +1,24 @@
 ul.today {
   list-style: none;
   font-size: 14px;
-  margin-left: 12px;
-  margin-right: 12px;
 }
 
-.col-4 {
-  padding: 38px;
+img.nowImage {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 65px;
 }
 h1 {
-  font-size: 66px;
-  text-align: center;
-}
-body {
-  background-image: url(./Images/future.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-size: 60px;
+  text-align: left;
+  color: black;
+  margin-left: -150px;
 }
 
 p {
   margin-left: 300px;
+}
+.celfar {
+  font-size: 20px;
 }
