@@ -1,15 +1,11 @@
-import "bootstrap/dist/css/bootstrap.css";
-// Put any other imports below so that CSS from your
-// components takes precedence over default styles.
-import "./App.css";
-import Search from "./Search";
+import Weather from "./Weather";
 import Forecast from "./Forecast";
 
 function App() {
   return (
     <div className="App">
       <body>
-        <Search />
+        <Weather />
         <Forecast />
         <footer>
           <p>
