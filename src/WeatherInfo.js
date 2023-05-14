@@ -18,7 +18,10 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <div className="d-flex">
             <div className="col-6">
-              <img src="http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,"></img>
+              <img
+                src="http://openweathermap.org/img/wn/.icon}@2x.png`,"
+                alt="icon"
+              ></img>
             </div>
 
             <h2>
