@@ -1,7 +1,7 @@
 ul.today {
   list-style: none;
   font-size: 14px;
-  margin-left: 70px;
+  margin-left: 30px;
   margin-bottom: 50px;
 }
 ul.main {
@@ -20,4 +20,5 @@ img.littleIcon {
 }
 .col {
   border: solid, 2px black;
+  background-color: rgb(239, 186, 84);
 }
