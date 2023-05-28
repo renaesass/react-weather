@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function WeatherForecastDay(props) {
+  let iconUrl = `https://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`;
+
   function maxTemperature() {
     let temperature = Math.round(props.data.temp.max);
     return `${temperature}°`;
@@ -26,8 +28,8 @@ export default function WeatherForecastDay(props) {
       <img
         className="littleIcon
         "
-        src="https://img.freepik.com/free-vector/weather-with-thunder_1308-82494.jpg?w=826&t=st=1684062754~exp=1684063354~hmac=0e81e8344361d594b8084bf04bfe69142bb8a7ae7a60512a68b227931fa52249"
-        alt="night"
+        src={iconUrl}
+        alt="weatherForecast"
       ></img>
 
       <div className="WeatherForecast-temperatures">
