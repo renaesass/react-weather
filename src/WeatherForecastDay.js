@@ -1,4 +1,5 @@
 import React from "react";
+import "./WeatherForecast.css";
 
 export default function WeatherForecastDay(props) {
   let iconUrl = `https://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`;

@@ -11,3 +11,11 @@
   border-style: solid;
   border-radius: 7.5%;
 }
+.WeatherForecast-day {
+  font-weight: bold;
+  margin-top: 7px;
+}
+.WeatherForecast-temperatures {
+  font-weight: bold;
+  margin-bottom: 7px;
+}

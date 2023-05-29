@@ -8,5 +8,11 @@
   margin: 10px 0;
 }
 body {
-  background-image: url("./Images/wallpaper.jpg");
+  background-image: url("./Images/ppp.jpeg");
+}
+footer {
+  color: black;
+}
+.links {
+  color: rgb(51, 31, 121);
 }

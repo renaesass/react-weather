@@ -1,0 +1,14 @@
+.unit {
+  font-size: 22px;
+  text-decoration: none;
+}
+.temperature {
+  font-size: 45px;
+}
+a {
+  text-decoration: none;
+  color: rgb(239, 186, 84);
+}
+a:hover {
+  color: rgb(239, 186, 84);
+}
